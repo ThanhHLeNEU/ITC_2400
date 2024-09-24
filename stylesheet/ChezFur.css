@@ -5,10 +5,22 @@ body {
     font-family: Arial, sans-serif; 
 } /* This part design for body section of the website*/ 
 
+
+header{
+        background-image: url("../images/LogoSmall.png");
+        min-height: 50px;
+        background-position: right top;
+        background-repeat: no-repeat;
+}
+
 main {
     Background-color: saddlebrown;
     color: gainsboro;
 }
+.supercat {
+    width: 30%;
+    height: 200px;
+  }
 
 /*Large Screen's style*/
 @media screen and (min-width: 750px) {
@@ -19,5 +31,11 @@ main {
      header{
         font-family: Georgia, 'Times New Roman', serif;
         background-color: peru; 
+        background-image: url("../images/LogoLarge.png");
+        min-height: 100px;
      }
+     .supercat {
+        width: 10%;
+        height: 200px;
+      }
 }
