@@ -1,41 +1,148 @@
 /* Small screen's Style*/
 body {
-    background-color: peru; 
-    color: bisque; 
+    background-color: #13201A; 
+    color: #F1FAEE; 
     font-family: Arial, sans-serif; 
-} /* This part design for body section of the website*/ 
+} 
 
+a {
+    color: #FF4747; /* link color*/
+}
+/* 3.14:1 Link to Body text; 4.99:1 Link to Background; 15.72:1 Body text to Background */
+/* The color does not have meaning, and I created the style base on testing the colors on WebAIM until I got a good number */ 
+/* Of course I do pick the coolor first before I put on WebAIM to get the best number */
+/* I know it was not the best color mix, however I do really like it ^^ */
 
 header{
         background-image: url("../images/LogoSmall.png");
+        background-color: #F4D35E;
+        color: #000000;
         min-height: 50px;
         background-position: right top;
         background-repeat: no-repeat;
 }
 
 main {
-    Background-color: saddlebrown;
-    color: gainsboro;
+    Background-color: #77b6ae ;
+    color: #000000; /* Body text color */
+    
 }
 .supercat {
-    width: 30%;
-    height: 200px;
+        width: 80px;
+        height: 80px;
+    }
+
+
+  aside {
+    background-color: #f15e08;
+    color: #ffffff;
+    padding: 10px;
+    border: 2px solid #13201A; /* Adding a border for visual separation */
+    font-family: Arial, sans-serif;
   }
 
+  .cat-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+    
+    figure figcaption{
+        text-align: center;
+        font-weight: bold;
+      }
+
+    figure {
+        margin: 20px;
+        text-align: center;
+    }
+ 
+  .menu-heading {
+    font-family: cursive;
+    text-align: center;
+    font-size: 50px;
+}
+
+.allergy-info {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #B80000;
+}
+
+.menu-background {
+    background-image: url("../images/menu_pic.jpg");
+    background-color: #cccccc;
+    width: 80%;
+}
+
+.YourHosts-page-gallery {
+    background-color: #f15e08;
+    border-radius: 10px;
+    width: 90%;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Default style for all links inside the nav tag */
+nav a {
+    text-decoration: none;
+    color: rgba(250, 250, 250, 0.527); /* Default color for unvisited links */
+    padding: 10px 20px;
+    font-size: 22px;
+    font-family: Arial, sans-serif;
+    margin: 0 10px;
+}
+
+/* Style for hovered links */
+nav a:hover {
+    color: #f39c12; /* Changes color when hovered */
+    font-size: 30px; /* increase font size on hover */
+    transition: all 0.3s ease;
+    background-color: yellow;
+    display: ruby-base-container;
+}
+
+/* Style for visited links */
+nav a:visited {
+    color: #ab06f1; /* Changes color when the link is visited */
+}
+
+/* Style for active links (clicked) */
+nav a:active {
+    color: #f0220b; /* Changes color when the link is clicked */
+}
 /*Large Screen's style*/
 @media screen and (min-width: 750px) {
     body {
-        background-color: maroon;
-        color: moccasin;
+        background-color: #C3DFDA;
+        color: #B80000; /* Body text color */
+    }
+    a {
+        color: #000000; /* Link color text*/
     }
      header{
         font-family: Georgia, 'Times New Roman', serif;
-        background-color: peru; 
+        background-color: #F4D35E; 
+        color: #000000; /* Text color*/
         background-image: url("../images/LogoLarge.png");
         min-height: 100px;
      }
      .supercat {
-        width: 10%;
-        height: 200px;
-      }
-}
+            width: 180px;
+            height: 180px;
+        }
+    .cat-image {
+        width: 150px;
+        height: 150px;
+    }
+    figure figcaption {
+            text-align: center;
+            font-weight: bold;
+          }
+        }
+    /* 3.03:1 Link to Body text; 14.88:1 Link to Background; 4.9:1 Body text to Background */
