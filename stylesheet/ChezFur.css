@@ -16,11 +16,12 @@ body {
     min-height: 50px;
     background-position: right top;
     background-repeat: no-repeat;
+    margin-bottom: 5px;
   }
   
   main {
     background-color: #77b6ae;
-    color: #000000; /* Body text color */
+    color: #000000; 
   }
   .supercat {
     object-fit: cover;
@@ -32,7 +33,7 @@ body {
     background-color: #f15e08;
     color: #ffffff;
     padding: 10px;
-    border: 2px solid #13201a; /* Adding a border for visual separation */
+    border: 2px solid #13201a;
     font-family: Arial, sans-serif;
   }
   
@@ -63,13 +64,15 @@ body {
     font-weight: bold;
     text-align: center;
     color: #b80000;
-    clear: left;
+    clear: left; /* clear left use to make sure warning side stay under <aside> and the Menu */
   }
   
   .menu-background {
     background-image: url("../images/menu_pic.jpg");
     background-color: #cccccc;
     width: 80%;
+    margin: 5px;
+    padding: 10px;
     float: left;
   }
   
@@ -99,8 +102,8 @@ body {
   
   /* Style for hovered links */
   nav a:hover {
-    color: #f39c12; /* Changes color when hovered */
-    font-size: 30px; /* increase font size on hover */
+    color: #f39c12; 
+    font-size: 30px; 
     transition: all 0.3s ease;
     background-color: yellow;
     display: ruby-base-container;
@@ -108,20 +111,20 @@ body {
   
   /* Style for visited links */
   nav a:visited {
-    color: #ab06f1; /* Changes color when the link is visited */
+    color: #ab06f1;
   }
   
   /* Style for active links (clicked) */
   nav a:active {
-    color: #f0220b; /* Changes color when the link is clicked */
+    color: #f0220b; 
   }
   
   ul {
-    list-style-type: none;
+    list-style-type: none; /* DELETTED the listing bulet*/
   }
   
   li {
-    display: inline;
+    display: inline; /* use to keet nav tag inline*/
   }
   
   .greeting {
@@ -131,8 +134,8 @@ body {
     padding: 10px; 
     height: auto;  
     width: auto;
-    float: left;
-  }
+    float: left; /* I spent more than 1 hour just trying to figure it out how to get the extra credit*/
+  }   /* the answer is right here (FLOAT: LEFT) ^_^ */
   
   
   /*Large Screen's style*/
@@ -152,7 +155,8 @@ body {
     .column-right {
       width: 80%;
     }
-
+  
+    /*Greeting and menu backgound design*/
     .row2 {
         display: flex;
         float: left;

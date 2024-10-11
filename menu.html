@@ -6,24 +6,26 @@
     <link rel="stylesheet" href="stylesheet/ChezFur.css">
     <style>
       li {
-        font-size: 1.25em; /* Makes the list items larger */
+        font-size: 1.25em; 
       }
       dt {
-        font-weight: bold; /* Makes the description terms bold */
+        font-weight: bold;
+        margin: 10px;
+        padding: 10px;
       }
       dd {
-        font-style: italic; /* Makes the descriptions italic */
-      }
-    </style>
+        font-style: italic;
+        padding: 10px; 
+      } 
+    </style> <!--Padding and margin was added to make sure menu items not too crowded-->
   </head>
   <body>
     <header>
       <h1>Chez Fur</h1>
       <h2>by Suzy Schaffer</h2>
     </header>
-
-    <div class="row">
-      <div class="column-left">
+    <div class="row"> <!--Start to create a first row with 2 columns-->
+      <div class="column-left"> <!--The Nav tag for larger screen will be left column-->
         <nav>
           <ul>
             <li><a href="index.html">Home</a></li>
@@ -33,13 +35,13 @@
           </ul>
         </nav>
       </div>
-      <div class="column-right">
+      <div class="column-right"> <!-- the picture will be the right column-->
         <img src="./images/hero_cat.jpg" alt="A picture of a cat with a supercat theme" class="supercat">
       </div>
     </div>
 
     <main>
-      <div class="row2">
+      <div class="row2"> <!--I created the second row to make <aside> is in the left column and menu is in the right side of <aside>-->
         <div class="column-left2">
           <aside class="greeting">
             Enjoy our food while you visit with our friendly hosts! We have
@@ -57,7 +59,7 @@
                   <dd>
                     Small salad with arugula, tomatoes, carrots, cucumber, and
                     crunchy croutons with vinaigrette dressing. Add just a pinch
-                    of catnip for a minty touch – sure to get our hosts' attention. $7
+                    of catnip for a minty touch sure to get our hosts' attention. $7
                   </dd>
                   <dt>Whisker Lickin' Dip</dt>
                   <dd>
@@ -68,7 +70,7 @@
                   <dt>Kitty Kibble Bites</dt>
                   <dd>
                     Savory baked treats made with chicken, sweet potatoes, and a
-                    dash of catnip – these crunchy bites are a purr-fect snack
+                    dash of catnip these crunchy bites are a purr-fect snack
                     for any occasion. $4
                   </dd>
                 </dl>
@@ -120,12 +122,11 @@
             </ul>
           </section>
         </div>
-      </div>
+      </div> <!--Column and row ended here-->
       <div class="allergy-info">
         Please let our staff know if you have any allergies before placing your order. Thank you, and enjoy your meal!
       </div>
     </main>
-
     <footer class="footer-design">
       <p>
         Copyright &copy; 2024 Suzy Schaffer<br>
