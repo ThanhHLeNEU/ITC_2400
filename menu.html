@@ -1,92 +1,141 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
+  <head>
     <title>Chez Fur</title>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="stylesheet/ChezFur.css">
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="stylesheet/ChezFur.css" />
     <style>
-        li {
-            font-size: 1.25em; /* Makes the list items larger */
-        }
-        dt {
-            font-weight: bold; /* Makes the description terms bold */
-        }
-        dd {
-            font-style: italic; /* Makes the descriptions italic */
-        }
+      li {
+        font-size: 1.25em; /* Makes the list items larger */
+      }
+      dt {
+        font-weight: bold; /* Makes the description terms bold */
+      }
+      dd {
+        font-style: italic; /* Makes the descriptions italic */
+      }
     </style>
-</head> <!--Style tab will add on later after "head" section-->
-<body> 
-    <header> <!--This is start line of HEADER (HEADER is not HEAD!!!)-->
-        <h1>Chez Fur</h1>
-        <h2>by Suzy Schaffer</h2>
-    </header> 
-    <nav>
-        <a href="index.html">Home</a>  <a href="menu.html">Menu</a> <a href="YourHosts.html">YourHosts</a> <a href="Contact.html">Contact</a>
-    </nav>  
+  </head>
+  <!--Style tab will add on later after "head" section-->
+  <body>
+    <header>
+      <!--This is start line of HEADER (HEADER is not HEAD!!!)-->
+      <h1>Chez Fur</h1>
+      <h2>by Suzy Schaffer</h2>
+    </header>
+
+    <div class="row">
+      <div class="column-left">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="YourHosts.html">Your Hosts</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="column-right">
+        <img
+          src="./images/hero_cat.jpg" alt="This picture was snipping from canvas" class="supercat"/>
+      </div>
+    </div>
+
     <main>
-        <aside>Enjoy our food while you visit with our friendly hosts! We have selections for
-            appetites big and small.
-        </aside>
-        <section class="menu-background">
-        <h2 class="menu-heading">Menu</h2>
-        <ul style="list-style-type:none;">
-            <li>
-                <h2>Nibbles</h2>
-                 <dl>
-                    <dt>Purrfect Salad</dt>
-                        <dd>Small salad with arugula, tomatoes, carrots, cucumber, and crunchy
-                            croutons with vinaigrette dressing. Add just a pinch of catnip for a minty
-                            touch -- Sure to get our hosts's attention. $7</dd>
-                    <dt>Whisker Lickin' Dip</dt>
-                        <dd>Creamy hummus made with chickpeas, tahini, and a hint of garlic, served with a variety of 
-                            fresh veggie sticks for dipping. Perfect for sharing with your furry friends. $5</dd>
-                    <dt>Kitty Kibble Bites</dt>
-                        <dd>Savory baked treats made with chicken, sweet potatoes, and a dash of catnip, 
-                            these crunchy bites are a purr-fect snack for any occasion. $4</dd>
-                 </dl>
-             </li>
-             <li> 
-                <h2>Fancy Feasts</h2> 
-                 <dl>
-                    <dt>Too Too Tuna</dt>
-                        <dd>A favorite among all our hosts. Fresh Albacore Tuna with lettuce,
-                            tomato, vegan mayo and your choice of white, wheat, or gluten-free white
-                            bread. $12.</dd>
-                    <dt>Pawsitively Pesto Pasta</dt>
-                        <dd>Al dente pasta tossed in a rich basil pesto sauce with sun-dried tomatoes and a sprinkle of parmesan cheese. 
-                            A delightful dish that even your cat will admire! $14</dd>
-                    <dt>Meow-nificent Meatballs</dt>
-                        <dd>Tender beef meatballs simmered in a homemade marinara sauce, served on a bed of spaghetti and topped with fresh basil. 
-                            A hearty meal that satisfies both cats and humans. $15</dd>
-                 </dl>
-            </li>
-            <li>
-                <h2>Treats</h2>
-                 <dl>
-                    <dt>Cat pop</dt>
-                        <dd>Classic vanilla Cake Pop with chocolate icing “fur”,
-                            and white icing whiskers. Also available in chocolate
-                            cake. $3</dd>
-                    <dt>Feline Fruit Tart</dt>
-                        <dd>A delightful mini tart filled with creamy vanilla custard and topped with a colorful array of fresh fruits. 
-                            A sweet treat that's as beautiful as it is delicious! $4</dd>
-                    <dt>Kitty Cookies</dt>
-                        <dd>Soft and chewy oatmeal cookies with a hint of catnip and packed with cranberries and pumpkin seeds. 
-                            A delightful snack for you and your feline friends. $2</dd>
-                 </dl>
-            </li> 
-            
-        </ul>
-        </section>
-        <div class="allergy-info">
-            PLEASE! LET OUR STAFFS KNOW IF YOU HAVE ANY ALLERGY BEFORE YOU MAKE AN ORDER. THANK YOU AND HOPE YOU'RE ENJOY YOUR MEALS!
+      <div class="row2">
+        <div class="column-left2">
+          <aside class="greeting">
+            Enjoy our food while you visit with our friendly hosts! We have
+            selections for appetites big and small.
+          </aside>
         </div>
+        <div class="column-right2">
+          <section class="menu-background">
+            <h2 class="menu-heading">Menu</h2>
+            <ul style="list-style-type: none">
+              <li>
+                <h2>Nibbles</h2>
+                <dl>
+                  <dt>Purrfect Salad</dt>
+                  <dd>
+                    Small salad with arugula, tomatoes, carrots, cucumber, and
+                    crunchy croutons with vinaigrette dressing. Add just a pinch
+                    of catnip for a minty touch -- Sure to get our hosts's
+                    attention. $7
+                  </dd>
+                  <dt>Whisker Lickin' Dip</dt>
+                  <dd>
+                    Creamy hummus made with chickpeas, tahini, and a hint of
+                    garlic, served with a variety of fresh veggie sticks for
+                    dipping. Perfect for sharing with your furry friends. $5
+                  </dd>
+                  <dt>Kitty Kibble Bites</dt>
+                  <dd>
+                    Savory baked treats made with chicken, sweet potatoes, and a
+                    dash of catnip, these crunchy bites are a purr-fect snack
+                    for any occasion. $4
+                  </dd>
+                </dl>
+              </li>
+              <li>
+                <h2>Fancy Feasts</h2>
+                <dl>
+                  <dt>Too Too Tuna</dt>
+                  <dd>
+                    A favorite among all our hosts. Fresh Albacore Tuna with
+                    lettuce, tomato, vegan mayo and your choice of white, wheat,
+                    or gluten-free white bread. $12.
+                  </dd>
+                  <dt>Pawsitively Pesto Pasta</dt>
+                  <dd>
+                    Al dente pasta tossed in a rich basil pesto sauce with
+                    sun-dried tomatoes and a sprinkle of parmesan cheese. A
+                    delightful dish that even your cat will admire! $14
+                  </dd>
+                  <dt>Meow-nificent Meatballs</dt>
+                  <dd>
+                    Tender beef meatballs simmered in a homemade marinara sauce,
+                    served on a bed of spaghetti and topped with fresh basil. A
+                    hearty meal that satisfies both cats and humans. $15
+                  </dd>
+                </dl>
+              </li>
+              <li>
+                <h2>Treats</h2>
+                <dl>
+                  <dt>Cat pop</dt>
+                  <dd>
+                    Classic vanilla Cake Pop with chocolate icing “fur”, and
+                    white icing whiskers. Also available in chocolate cake. $3
+                  </dd>
+                  <dt>Feline Fruit Tart</dt>
+                  <dd>
+                    A delightful mini tart filled with creamy vanilla custard
+                    and topped with a colorful array of fresh fruits. A sweet
+                    treat that's as beautiful as it is delicious! $4
+                  </dd>
+                  <dt>Kitty Cookies</dt>
+                  <dd>
+                    Soft and chewy oatmeal cookies with a hint of catnip and
+                    packed with cranberries and pumpkin seeds. A delightful
+                    snack for you and your feline friends. $2
+                  </dd>
+                </dl>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+      <div class="allergy-info">
+        PLEASE! LET OUR STAFFS KNOW IF YOU HAVE ANY ALLERGY BEFORE YOU MAKE AN
+        ORDER. THANK YOU AND HOPE YOU'RE ENJOY YOUR MEALS!
+      </div>
     </main>
-    <footer> 
-        <p>Copyright &copy; 2024 Suzy Schaffer<br>
-           thanh@le.com<br>
-        </p>
+    <footer class="footer-design">
+      <p>
+        Copyright &copy; 2024 Suzy Schaffer<br />
+        thanh@le.com<br />
+      </p>
     </footer>
-</body> 
+  </body>
 </html>
