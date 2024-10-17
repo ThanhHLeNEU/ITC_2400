@@ -1,233 +1,243 @@
-/* Small screen's Style*/
+/* Small Screen Style */
 body {
-    background-color: #13201a;
-    color: #f1faee;
-    font-family: Arial, sans-serif;
-  }
-  
-  a {
-    color: #ff4747; /* link color*/
-  }
-  
-  header {
-    background-image: url("../images/LogoSmall.png");
-    background-color: #f4d35e;
-    color: #000000;
-    min-height: 50px;
-    background-position: right top;
-    background-repeat: no-repeat;
-  }
-  
-  main {
-    background-color: #77b6ae;
-    color: #000000;
-    width: 100%;
-  }
-  .supercat {
-    object-fit: cover;
-    width: 100%;
-    height: 80px;
-  }
-  
-  aside {
-    background-color: #f15e08;
-    color: #ffffff;
-    padding: 10px;
-    border: 2px solid #13201a;
-    font-family: Arial, sans-serif;
-  }
-  
-  .cat-image {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    object-fit: cover;
-  }
-  
-  figure figcaption {
-    text-align: center;
-    font-weight: bold;
-  }
-  
-  figure {
-    margin: 15px;
-    text-align: center;
-  }
-  
-  .menu-heading {
-    font-family: cursive;
-    text-align: center;
-    font-size: 50px;
-  }
-  
-  .allergy-info {
-    font-family: "Arial", sans-serif;
-    font-weight: bold;
-    text-align: center;
-    color: #b80000;
-    clear: left; /* clear left use to make sure warning side stay under <aside> and the Menu */
-  }
-  
-  .menu-background {
-    background-image: url("../images/menu_pic.jpg");
-    background-color: #cccccc;
-    width: 80%;
-    float: left;
-  }
-  
-  .YourHosts-page-gallery {
-    width: auto;
-    justify-content: space-around;
-    display: flex;
-    align-items: cennter;
-    text-align: center;
-  }
-  
-  nav {
-    background-color: #333;
-    text-align: center;
-  }
-  
-  /* Default style for all links inside the nav tag */
-  nav a {
-    text-decoration: none;
-    color: rgba(250, 250, 250, 0.527); 
-    padding: 5px;
-    font-size: 13px;
-    font-family: Arial, sans-serif;
-    background-color: lightblue;
-    margin: 5px;
-    text-align: center;
-    display: inline;
-  }
-  
-  /* Style for hovered links */
-  nav a:hover {
-    color: #f39c12; 
-    font-size: 15px; 
-    transition: all 0.3s ease;
-    background-color: yellow;
-    display: ruby-base-container;
-  }
-  
-  /* Style for visited links */
-  nav a:visited {
-    color: #ab06f1;
-  }
-  
-  /* Style for active links (clicked) */
-  nav a:active {
-    color: #f0220b; 
-  }
-  
-  .greeting {
-    border-radius: 25px;
-    background: peru;
-    margin: 5px;
-    padding: 10px; 
-    height: auto;  
-    width: auto;
-    float: left; /* I spent more than 1 hour just trying to figure it out how to get the extra credit*/
-  }   /* the answer is right here (FLOAT: LEFT) ^_^ */
-  
-  .flexible-container-for-images {
-    display: flex;
-    flex-wrap: wrap; /* Allows images to wrap to the next line */
-    justify-content: space-evenly; /* Spaces images evenly */
-  }
+  background-color: #13201a;
+  color: #f1faee;
+  font-family: Arial, sans-serif;
+}
 
-  .navcontainer {
-    display: flex;
-    flex-direction: row; /* Horizontal on small screens */
-    justify-content: space-evenly;
-    gap: 5px;
-  }
-  
-  /*Large Screen's style*/
-  @media screen and (min-width: 750px) {
-    
-  /*nav tag and design*/
-    .row {
+a {
+  color: #ff4747; /* Link color */
+}
+
+header {
+  background-image: url("../images/LogoSmall.png");
+  background-color: #f4d35e;
+  color: #000000;
+  min-height: 50px;
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+main {
+  background-color: #77b6ae;
+  color: #000000;
+  width: 100%;
+}
+
+.supercat {
+  object-fit: cover;
+  width: 100%;
+  height: 80px;
+}
+
+aside {
+  background-color: #f15e08;
+  color: #ffffff;
+  padding: 10px;
+  border: 2px solid #13201a;
+  font-family: Arial, sans-serif;
+}
+
+.cat-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+figure figcaption {
+  text-align: center;
+  font-weight: bold;
+}
+
+figure {
+  margin: 15px;
+  text-align: center;
+}
+
+.menu-heading {
+  font-family: cursive;
+  text-align: center;
+  font-size: 50px;
+}
+
+.allergy-info {
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #b80000;
+  clear: left; /* Ensures warning stays below aside and menu */
+}
+
+.menu-background {
+  background-image: url("../images/menu_pic.jpg");
+  background-color: #cccccc;
+  width: 80%;
+  float: left;
+}
+
+.YourHosts-page-gallery {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+
+nav {
+  background-color: #333;
+  text-align: center;
+}
+
+/* Default style for all links inside the nav tag */
+nav a {
+  text-decoration: none;
+  color: rgba(250, 250, 250, 0.527); 
+  padding: 5px;
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  background-color: lightblue;
+  margin: 5px;
+  text-align: center;
+  display: inline-block;
+}
+
+/* Style for hovered links */
+nav a:hover {
+  color: #f39c12;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  background-color: yellow;
+}
+
+/* Style for visited links */
+nav a:visited {
+  color: #ab06f1;
+}
+
+/* Style for active links (clicked) */
+nav a:active {
+  color: #f0220b;
+}
+
+.greeting {
+  border-radius: 25px;
+  background: peru;
+  margin: 5px;
+  padding: 10px;
+  width: auto;
+  float: left; /* Helps position element for extra credit */
+}
+
+.flexible-container-for-images {
+  display: flex;
+  flex-wrap: wrap; /* Allows images to wrap to the next line */
+  justify-content: space-evenly; /* Spaces images evenly */
+}
+
+.navcontainer {
+  display: flex;
+  flex-direction: row; /* Horizontal on small screens */
+  justify-content: space-evenly;
+  gap: 5px;
+}
+
+/* Large Screen Style */
+@media screen and (min-width: 750px) {
+  /* Navigation Design */
+  .row {
       display: flex;
       height: 180px;
-    }
-    .column-left,
-    .column-right {
-      display: inline-block;
-    }
-    .column-left {
-      width: 20%;
-    }
-    .column-right {
-      width: 80%;
-    }
-  
-    /*Greeting and menu backgound design*/
-    .row2 {
-        display: flex;
-        float: left;
-        box-sizing: border-box;
-      }
-      .column-left2,
-      .column-right2 {
-        display: inline-table;
-      }
-      .column-left2 {
-        width: 20%;
-      }
-      .column-right2 {
-        width: 80%;
-      }
+  }
 
-    nav a {
-        text-decoration: none;
-        color: rgba(250, 250, 250, 0.527); 
-        padding: 10px 20px;
-        font-size: 15px;
-        font-family: Arial, sans-serif;
-        background-color: lightblue;
-        font-size: 13px;
-        margin: 10px;
-        display: block;
-        text-align: center;
-      }
-  /*BODY  and design*/
-    body {
+  .column-left,
+  .column-right {
+      display: inline-block;
+  }
+
+  .column-left {
+      width: 20%;
+  }
+
+  .column-right {
+      width: 80%;
+  }
+
+  /* Greeting and menu background design */
+  .row2 {
+      display: flex;
+      float: left;
+      box-sizing: border-box;
+  }
+
+  .column-left2,
+  .column-right2 {
+      display: inline-table;
+  }
+
+  .column-left2 {
+      width: 20%;
+  }
+
+  .column-right2 {
+      width: 80%;
+  }
+
+  nav a {
+      text-decoration: none;
+      color: rgba(250, 250, 250, 0.527); 
+      padding: 10px 20px;
+      font-size: 15px;
+      font-family: Arial, sans-serif;
+      background-color: lightblue;
+      margin: 10px;
+      display: block;
+      text-align: center;
+  }
+
+  /* Body Design */
+  body {
       background-color: #c3dfda;
       color: #b80000; /* Body text color */
-    }
-    a {
-      color: #000000; /* Link color text*/
-    }
-    header {
+  }
+
+  a {
+      color: #000000; /* Link text color */
+  }
+
+  header {
       font-family: Georgia, "Times New Roman", serif;
       background-color: #f4d35e;
-      color: #000000; /* Text color*/
+      color: #000000; /* Text color */
       background-image: url("../images/LogoLarge.png");
       min-height: 100px;
-    }
-    .supercat {
+  }
+
+  .supercat {
       height: 180px;
-    }
-    .cat-image {
+  }
+
+  .cat-image {
       width: 150px;
       height: 150px;
       border-radius: 50%;
-    }
-    figure figcaption {
+  }
+
+  figure figcaption {
       text-align: center;
       font-weight: bold;
-    }
-    .navcontainer {
+  }
+
+  .navcontainer {
       flex-direction: column; /* Vertical on large screens */
       height: 100vh;
-    }
-    .layout-container {
-      display: flex;
-    }
-    main {
-      height: 100v;
-      overflow: scroll
-    }
   }
-  
+
+  .layout-container {
+      display: flex;
+  }
+
+  main {
+      height: 100vh;
+      overflow: scroll;
+  }
+}
