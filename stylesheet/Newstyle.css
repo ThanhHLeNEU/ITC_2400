@@ -1,17 +1,17 @@
 @charset "utf-8";
 body {
-    background-image: url(../images/Blog_Background-pic.jpg); /*I like how Dreamwaiver copied the image and put it in the right path*/
+    background-image: url(../images/Blog_Background-pic.jpg); /* Dreamweaver automatically set the correct path to the image, which saved me time fixing file path errors. */
     background-size: cover;
     background-attachment: fixed;
     font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
     border-radius: 20px;
 }
 h1 {
-    font-family: "Kristen ITC", "Juice ITC", "High Tower Text", "Informal Roman", "Old English Text MT";
+    font-family: "Kristen ITC", "Juice ITC", "High Tower Text", "Informal Roman", "Old English Text MT"; /* I don't have to look for font style online, many options are in DW that I can just pick, save me a lot of time*/
     font-size: 3.6em;
     font-weight: 900; 
     font-style: oblique;
-    text-align: center; /* I like how the size and style shows right after I made my choice, absolutyle savetime a lot*/
+    text-align: center; /* Dreamweaver’s live preview lets me see font size and style changes immediately, saving me time in trial and error. */
 }
 
 h2 {
@@ -35,20 +35,21 @@ section {
 }
 aside {
     width: 50%;
-    float: left;
+    float: left; /* Floating is absolutely better with DW more than coding by hand.*/
 }
 body footer {
     bottom: 0px;
-    clear: both; /* I like how small symbols show the position of clear options*/
+    clear: both;
     width: 100%;
     text-align: center;
     position: fixed;
-    background-image: -webkit-linear-gradient(270deg,rgba(220,182,183,1.00) 1.55%,rgba(112,5,5,1.00) 100%); /* Picking color is really easy on Dreamwaiver*/
+    background-image: -webkit-linear-gradient(270deg,rgba(220,182,183,1.00) 1.55%,rgba(112,5,5,1.00) 100%); /* Picking and applying gradients in Dreamweaver is very intuitive, helping me visually test different options before finalizing. */
+    height: 60px;
     background-image: -moz-linear-gradient(270deg,rgba(220,182,183,1.00) 1.55%,rgba(112,5,5,1.00) 100%);
     background-image: -o-linear-gradient(270deg,rgba(220,182,183,1.00) 1.55%,rgba(112,5,5,1.00) 100%);
     background-image: linear-gradient(180deg,rgba(220,182,183,1.00) 1.55%,rgba(112,5,5,1.00) 100%);
     height: 60px;
-    padding-top: 10px; /* I did not like padding, margin, postion at all becasue it is so confuse for me. However, DW just made it clear for me, I think if I need to do padding, margin, postion again on VS, I think I could do it so much better now*/
+    padding-top: 10px; 
 }
 header {
     text-align: center;
@@ -84,6 +85,7 @@ section {
     padding-right: 2.5%;
     float: none;
     border-radius: 25px;
+	/* Dreamweaver makes testing responsiveness easier with its built-in view switcher for different screen sizes. */
 }
 aside {
     width: 100%;
