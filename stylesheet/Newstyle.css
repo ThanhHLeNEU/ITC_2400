@@ -1,0 +1,113 @@
+@charset "utf-8";
+body {
+    background-image: url(../images/Blog_Background-pic.jpg); /*I like how Dreamwaiver copied the image and put it in the right path*/
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    border-radius: 20px;
+}
+h1 {
+    font-family: "Kristen ITC", "Juice ITC", "High Tower Text", "Informal Roman", "Old English Text MT";
+    font-size: 3.6em;
+    font-weight: 900; 
+    font-style: oblique;
+    text-align: center; /* I like how the size and style shows right after I made my choice, absolutyle savetime a lot*/
+}
+
+h2 {
+    font-style: italic;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 2em;
+    color: #170908;
+}
+body nav a {
+}
+
+section {
+    background-color: #6DFFCB;
+    width: 40%;
+    margin-left: 1%;
+    margin-right: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    float: right;
+    border-radius: 25px;
+}
+aside {
+    width: 50%;
+    float: left;
+}
+body footer {
+    bottom: 0px;
+    clear: both; /* I like how small symbols show the position of clear options*/
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    background-image: -webkit-linear-gradient(270deg,rgba(220,182,183,1.00) 1.55%,rgba(112,5,5,1.00) 100%); /* Picking color is really easy on Dreamwaiver*/
+    background-image: -moz-linear-gradient(270deg,rgba(220,182,183,1.00) 1.55%,rgba(112,5,5,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(220,182,183,1.00) 1.55%,rgba(112,5,5,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(220,182,183,1.00) 1.55%,rgba(112,5,5,1.00) 100%);
+    height: 60px;
+    padding-top: 10px; /* I did not like padding, margin, postion at all becasue it is so confuse for me. However, DW just made it clear for me, I think if I need to do padding, margin, postion again on VS, I think I could do it so much better now*/
+}
+header {
+    text-align: center;
+    margin-top: 80px;
+    margin-right: 80px;
+    margin-bottom: 80px;
+    margin-left: 80px;
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light .navbar-brand {
+    color: #F80004;
+    font-size: xx-large;
+    font-weight: 900;
+    font-style: oblique;
+    font-family: "Arial Narrow", "Arial Rounded MT Bold";
+}
+.navbar-nav.mr-auto .nav-item .nav-link {
+	font-size: 18px;
+	font-weight: bolder;
+	
+}
+
+.navbar-nav.mr-auto .nav-item .nav-link:hover {
+	color: red;
+	
+}
+@media (max-width: 700px){
+section {
+    background-color: #6DFFCB;
+    width: 90%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    float: none;
+    border-radius: 25px;
+}
+aside {
+    width: 100%;
+    float: none;
+    font-size: 0.6em;
+}	
+}
+
+@media (max-height:680px){
+section {
+    background-color: ;
+    width: 40%;
+    margin-left: 1%;
+    margin-right: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    float: right;
+    border-radius: 25px;
+    background-color: #F1F18E;
+}
+aside {
+    width: 50%;
+    float: left;
+    border-radius: 15px;
+}
+
+}
