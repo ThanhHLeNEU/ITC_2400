@@ -92,19 +92,6 @@ aside {
 
 @media (max-height:680px){
 section {
-    width: 40%;
-    margin-left: 1%;
-    margin-right: 5%;
-    padding-left: 2%;
-    padding-right: 2%;
-    float: right;
-    border-radius: 25px;
     background-color: #F1F18E;
 }
-aside {
-    width: 50%;
-    float: left;
-    border-radius: 15px;
-}
-
 }
