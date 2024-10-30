@@ -43,13 +43,9 @@ body footer {
     width: 100%;
     text-align: center;
     position: fixed;
-    background-image: -webkit-linear-gradient(270deg,rgba(220,182,183,1.00) 1.55%,rgba(112,5,5,1.00) 100%); /* Picking and applying gradients in Dreamweaver is very intuitive, helping me visually test different options before finalizing. */
     height: 60px;
-    background-image: -moz-linear-gradient(270deg,rgba(220,182,183,1.00) 1.55%,rgba(112,5,5,1.00) 100%);
-    background-image: -o-linear-gradient(270deg,rgba(220,182,183,1.00) 1.55%,rgba(112,5,5,1.00) 100%);
-    background-image: linear-gradient(180deg,rgba(220,182,183,1.00) 1.55%,rgba(112,5,5,1.00) 100%);
-    height: 60px;
-    padding-top: 10px; 
+    background-image: linear-gradient(270deg, rgb(220, 182, 183) 1.55%, rgb(112, 5, 5) 100%);
+    padding-top: 10px; /* Picking and applying gradients in Dreamweaver is very intuitive, helping me visually test different options before finalizing. */
 }
 header {
     text-align: center;
@@ -96,7 +92,6 @@ aside {
 
 @media (max-height:680px){
 section {
-    background-color: ;
     width: 40%;
     margin-left: 1%;
     margin-right: 5%;
