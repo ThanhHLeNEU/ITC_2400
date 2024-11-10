@@ -184,6 +184,64 @@ nav a:active {
   text-align: center;
   padding: 10px 0;
 }
+
+form {
+  background-color: orange; /* Adjust color to match your site */
+  padding: 20px;
+  border-radius: 25px;
+  margin-left:20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+body, form {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    border: 1px solid #333; /* Adjust color as needed */
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: rgb(201, 198, 198);
+}
+
+input[type="submit"] {
+    background-color: #4CAF50; /* Button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.Contact-greeting {
+  background-color: #45a049;
+  border-radius: 25px;
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
 /* Large Screen Style */
 @media screen and (min-width: 750px) {
   /* Navigation Design */
